@@ -1,0 +1,26 @@
+@import './partials/bootstrap-overrides';
+
+* *::after, *::before{
+    box-sizing: border-box;
+}
+
+footer{
+    max-width: 100%;
+    margin-inline: auto;
+
+    @media screen and (min-width:576px) {
+
+        max-width: 90%;
+    }
+    @media screen and (min-width:768px) {
+        max-width: 80%;
+        
+    }
+    @media screen and (min-width:992px) {
+        max-width: 70%;
+    }
+
+    @media screen and (min-width:1200px) {
+        max-width: 60%;
+    }
+}

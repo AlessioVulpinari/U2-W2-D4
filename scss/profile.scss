@@ -1,0 +1,31 @@
+@import './partials/bootstrap-overrides';
+
+main {
+    > .container{
+
+        @media screen and (min-width:992px) {
+            max-width: 60%;
+        }
+    
+        @media screen and (min-width:1200px) {
+            max-width: 50%;
+        }
+
+        > div{
+            > .image-container{
+                img{
+                    width: 72.5px;
+                    height: 74px;
+                    @media screen and (min-width:576px) {
+                        width: 145px;
+                        height: 148px;
+                    }
+                }
+                
+            }
+
+        }
+        
+    }
+   
+}
